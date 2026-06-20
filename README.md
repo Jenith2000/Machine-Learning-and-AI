@@ -2,7 +2,7 @@
 
 # Overview
 
-This project was completed for the BBIM708 / GDDA708 Machine Learning and AI course at New Zealand Skills and Education College (NZSE).
+This project was completed for the (BBIM GDDA 708_Assessment-v1.3-1) Machine Learning and AI course at New Zealand Skills and Education College (NZSE).
 
 The objective was to evaluate machine learning algorithms on real-world datasets and improve their performance using hyperparameter tuning techniques such as Grid Search, Random Search, and 5-Fold Cross-Validation.
 
@@ -69,19 +69,11 @@ Mall Customer Segmentation Dataset ('unsupervised.csv')
 
 ### Grid Search + Random Forest Classifier
 
-- Optimize classification hyperparameters
-- Parameters tuned:
-
-  * n_estimators
-  * max_depth
+- Optimize classification model hyperparameters
 
 ### Random Search + Random Forest Regressor
 
-- Optimize regression hyperparameters
-- Parameters tuned:
-
-  * n_estimators
-  * max_depth
+- Optimize regression model hyperparameters
 
 ### 5-Fold Cross-Validation
 
@@ -197,14 +189,14 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy gdown
 
 # How to Run This Code
 
-Option 1 — Open directly in Google Colab
+Option 1 : Open directly in Google Colab
 
 Step-by-step instructions:
 
-Step 1 — Open Google Colab
+Step 1 : Open Google Colab
 Go to colab.research.google.com and sign in with a Google account.
 
-Step 2 — Open the notebook from GitHub
+Step 2 : Open the notebook from GitHub
 
 
 Click File in the top menu
@@ -217,7 +209,7 @@ Type in this repository URL:
 Click the search icon
 Click on Assessment_ML.ipynb from the list that appears
 
-Step 3 — Run all cells
+Step 3 : Run all cells
 
 
 Click Runtime in the top menu
@@ -226,13 +218,13 @@ Wait for all cells to finish running (this takes about 2–3 minutes)
 All outputs, charts and results will appear below each cell
 
 
-Step 4 — View the results
+Step 4 : View the results
 All figures, tables and printed results will appear directly below their code cells in the notebook.
 
 
-# Option 2 — Run locally using VS Code
+# Option 2 : Run locally using VS Code
 
-Step 1 — Download the repository
+Step 1 : Download the repository
 
 
 Go to the repository page on GitHub
@@ -241,13 +233,13 @@ Click Download ZIP
 Extract the ZIP file to a folder on your computer
 
 
-Step 2 — Install Python
+Step 2 : Install Python
 Download and install Python 3.11 or newer from python.org
 
-Step 3 — Install VS Code
+Step 3 : Install VS Code
 Download from code.visualstudio.com and install it.
 
-Step 4 — Install the Jupyter extension in VS Code
+Step 4 : Install the Jupyter extension in VS Code
 
 
 Open VS Code
@@ -256,20 +248,20 @@ Search for Jupyter and click Install
 Search for Python and click Install
 
 
-Step 5 — Install required libraries
+Step 5 : Install required libraries
 Open the VS Code terminal (press Ctrl + `) and run:
 
 bash : pip install pandas numpy matplotlib seaborn scikit-learn scipy gdown
 
-Step 6 — Open the notebook
+Step 6 : Open the notebook
 
 
-In VS Code click File → Open Folder
+In VS Code click File ->  Open Folder
 Select the folder where you extracted the ZIP
 Click on Assessment_ML.ipynb in the file explorer on the left
 
 
-Step 7 — Run the notebook
+Step 7 : Run the notebook
 
 Press Ctrl + Shift + P
 Type Run All and press Enter
